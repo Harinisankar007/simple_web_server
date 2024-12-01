@@ -22,6 +22,7 @@ Testing the webserver.
 
 # PROGRAM:
 ```
+
 <!doctype html>
 <html>
 <head>
@@ -41,19 +42,19 @@ Testing the webserver.
             device name
         </td>
         <td>
-            LAPTOP-U1LOO5
+            "LAPTOP-U1LOO5"
         </td>
     </tr>
     <tr>
         <td>processor
         </td>
-        <td> Gen Intel(R) Core(TM) i5-1235U   1.30 GHz
+        <td> "Gen Intel(R) Core(TM) i5-1235U   1.30 GHz"
         </td>
     <tr>
         <td>Installed RAM
         </td>
         <td>
-            16.0 GB (15.7 GB usable)
+            "16.0 GB (15.7 GB usable)"
         </td>
     </tr>
     <tr>
@@ -61,20 +62,20 @@ Testing the webserver.
             Device ID
         </td>
         <td>
-            CCFA21-805-4552-107-ACD99522EF55
+            "CCFA21-805-4552-107-ACD99522EF55"
         </td>
     </tr>
     <tr>
         <td>
             Product ID
         </td>
-        <td>00342-42684-23673-AAOEM</td>
+        <td>'00342-42684-23673-AAOEM'</td>
     </tr>
     <tr>
         <td>
             System Type
         </td>
-        <td>64-bit operating system, x64-based processor</td>
+        <td>'64-bit operating system, x64-based processor'</td>
     </tr>
 </table>
 </body>
@@ -95,5 +96,6 @@ httpd.serve_forever()
 
 # OUTPUT:
 ![alt text](<Screenshot 2024-12-01 125757.png>)
+![alt text](<Screenshot 2024-12-01 131809.png>)
 # RESULT:
 The program for implementing simple webserver is executed successfully.

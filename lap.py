@@ -1,6 +1,6 @@
 from http.server import HTTPServer,BaseHTTPRequestHandler
-```
 
+'''
 <!doctype html>
 <html>
 <head>
@@ -58,7 +58,7 @@ from http.server import HTTPServer,BaseHTTPRequestHandler
 </table>
 </body>
 </html>
-```
+'''
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
