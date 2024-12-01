@@ -22,10 +22,6 @@ Testing the webserver.
 
 # PROGRAM:
 ```
-
-from http.server import HTTPServer,BaseHTTPRequestHandler
-
-content=
 <!doctype html>
 <html>
 <head>
@@ -45,13 +41,13 @@ content=
             device name
         </td>
         <td>
-            LAPTOP-5JU1LOO5
+            LAPTOP-U1LOO5
         </td>
     </tr>
     <tr>
         <td>processor
         </td>
-        <td>12th Gen Intel(R) Core(TM) i5-1235U   1.30 GHz
+        <td> Gen Intel(R) Core(TM) i5-1235U   1.30 GHz
         </td>
     <tr>
         <td>Installed RAM
@@ -65,7 +61,7 @@ content=
             Device ID
         </td>
         <td>
-            13CCFA21-805B-4552-B107-ACD99522EF55
+            CCFA21-805-4552-107-ACD99522EF55
         </td>
     </tr>
     <tr>
@@ -98,6 +94,6 @@ httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 
 # OUTPUT:
-![alt text](<Screenshot 2024-10-24 211758.png>)
+![alt text](<Screenshot 2024-12-01 125757.png>)
 # RESULT:
 The program for implementing simple webserver is executed successfully.
